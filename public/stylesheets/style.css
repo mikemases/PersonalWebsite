@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
+  padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #74AFAD
+;
 }
 
 a {
   color: #00B7FF;
+}
+h1 {
+    margin: 0px;
+    font-size: 150px;
+    color: #ECECEA;
+}
+.footer {
+    position: fixed;
+    text-align: right;
+    color: #ECECEA;
+    bottom: 0;
+    width: 100%;
 }
