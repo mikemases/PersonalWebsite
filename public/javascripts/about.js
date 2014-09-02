@@ -6,12 +6,17 @@ var callback = function(){
         width: newWidth
     }, 1000);
 	});
-	$('.icons-red').each(function(){
+
+    $('.icons-red').each(function(){
 		height = $(this).height();
-    $(this).animate({
+
+        $(this).animate({
         height: 14
     }, 2000);
 	});
+
+    $('#cssmenu #about').addClass('active');
+    $('#cssmenu #about a').removeAttr('href');
 };
 $(document).ready(callback);
 

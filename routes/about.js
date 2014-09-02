@@ -1,12 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET about page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Mike Mases.',
-                           js: 'javascripts/index.js',
+  res.render('about', { title: 'Mike Mases.',
+                           js: 'javascripts/about.js',
                        avatar: 'images/avatar.png',
-                      subject: ''});
+                      subject: 'and this is about me'});
 });
 
 module.exports = router;

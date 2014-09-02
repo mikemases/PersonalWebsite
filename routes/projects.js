@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Mike Mases.',
-                           js: 'javascripts/index.js',
+  res.render('projects', { title: 'Mike Mases.',
+                           js: 'javascripts/projects.js',
                        avatar: 'images/avatar.png',
-                      subject: ''});
+                      subject: 'and these are my projcets'});
 });
 
 module.exports = router;

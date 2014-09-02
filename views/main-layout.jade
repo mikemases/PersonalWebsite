@@ -8,13 +8,13 @@ html
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/font-awesome.css')
     link(rel='stylesheet', href='/stylesheets/cv-main.css')
+    link(rel='stylesheet', href='/stylesheets/main-menu.css')
     |<!--[if lt IE 9]>
     |   <script src="js/html5shiv.js"></script>
     |   <script src="js/respond.min.js"></script>
     |<![endif]-->
     script(type="text/javascript" src="lib/jquery.min.js")
     script(type="text/javascript" src="lib/bootstrap.min.js")
-    script(type="text/javascript" src=js)
   body
     div.container
        div.row
@@ -29,4 +29,16 @@ html
                             span
                                 |&nbsp;Mike&nbsp;
                             =subject
-        block content
+                       div#cssmenu
+                           ul
+                               li#home
+                                   span
+                                        a(href="./") Home
+                               li#projects
+                                   span
+                                       a(href="./projects") Projects
+                               li#about
+                                   span
+                                       a(href="./about") About me
+
+       block content

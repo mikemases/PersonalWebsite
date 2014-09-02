@@ -1,3 +1,4 @@
 $(document).ready(function() {
-    console.log($('h1').text());
-})
+    $('#cssmenu #home').addClass('active');
+    $('#cssmenu #home a').removeAttr('href');
+});

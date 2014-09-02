@@ -1,0 +1,11 @@
+extends main-layout
+
+block content
+    div.row
+        div.col-xs-12.col-sm-7
+            div.box
+                h2 Projects
+                p
+                    a(href="javascript:void(0)" onclick="load_project('project_one')") Project one
+    div.row#project-space
+    script(type="text/javascript" src=js)
